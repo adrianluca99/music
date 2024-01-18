@@ -1,0 +1,73 @@
+/* Fonts Family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:hsl(233, 47%, 7%);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1100px;
+    max-height: 425px;
+    overflow: hidden;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 15px;
+}
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    padding:7%;
+
+    gap: 4rem;
+}
+.advantages {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    padding-right: 10%;
+}
+.companies {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.companies p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 14px;
+}
+.high {
+    font-size: 25px;
+    padding-bottom:5px;
+    color: white;
+}
+.main-text {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.main-text p {
+    line-height:1.7;
+    font-size: 15px;
+}
+span {
+    color:hsl(277, 64%, 61%)
+}
